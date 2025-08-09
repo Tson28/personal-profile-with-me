@@ -1,5 +1,5 @@
 
-# Personal Portfolio
+# Personal 
 <!-- #author : Nguyễn Thái Sơn -->
 
 Build portfolio with pure Html, CSS, JavaScript   
