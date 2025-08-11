@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<!-- #author : Nguyễn Thái Sơn -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ==========================================
+                  Box Icons
+    =========================================== -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ==========================================
+                  Custom CSS
+    =========================================== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- ==========================================
+                  Breakpoint
+    =========================================== -->
+    <link rel="stylesheet" href="breakpoint.css" />
+    <title>Nguyễn Thái Sơn - Portfolio</title>
+  </head>
+  <body>
+    <!-- ==========================================
+                    Header
+    =========================================== -->
+    <header class="header">
+      <a href="#" class="logo">SON<span>Dev.</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- ==========================================
+                  Home Section
+    =========================================== -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Nguyễn Thái Sơn</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <div class="social-media">
+          <a href="https://github.com/Tson28" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.facebook.com/SoThamory01/" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="mailto:son28062005@gmail.com"><i class="bx bxl-gmail"></i></a>
+          <a href="https://www.linkedin.com/in/nguyen-thai-son/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <!-- add link for your CV into `href` -->
+        <a href="mailto:son28062005@gmail.com" class="btn">Contact Me</a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/image/home1.png" alt="home" />
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  About Section
+    =========================================== -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/image/about1.png" alt="about" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>
+          ICT Student at Phenikaa University | Web & App Developer passionate about bridging Vietnam and Japan | 
+          Proficient in React, Flutter, Kotlin, FastAPI, Node.js, Python | Currently learning system architecture, 
+          CI/CD pipelines, and DevOps (especially AWS) | Eager to create intuitive software that makes a difference.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Services Section
+    =========================================== -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Full-stack web development using React, Node.js, Python FastAPI. 
+            Creating responsive and intuitive user interfaces with modern technologies.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-mobile-alt"></i>
+          <h3>Mobile Development</h3>
+          <p>
+            Cross-platform mobile app development with Flutter and native Android 
+            development using Kotlin. Building apps that work seamlessly across devices.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-cloud"></i>
+          <h3>Cloud & DevOps</h3>
+          <p>
+            AWS cloud services, CI/CD pipelines, and DevOps practices. 
+            Helping businesses scale their applications with modern infrastructure.
+          </p>
+
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Portfolio Section
+    =========================================== -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="assets/image/img2.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>React Web App</h4>
+            <p>
+              Modern web application built with React, featuring responsive design 
+              and intuitive user experience.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img2.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Flutter Mobile App</h4>
+            <p>
+              Cross-platform mobile application developed with Flutter, 
+              providing seamless experience across iOS and Android.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img4.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>FastAPI Backend</h4>
+            <p>
+              High-performance backend API built with Python FastAPI, 
+              featuring modern async programming and automatic documentation.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img4.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Kotlin Android App</h4>
+            <p>
+              Native Android application developed with Kotlin, 
+              showcasing modern Android development practices.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img6.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>AWS Cloud Solution</h4>
+            <p>
+              Cloud infrastructure and DevOps solution using AWS services, 
+              implementing CI/CD pipelines and scalable architecture.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="assets/image/img6.png" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Full-Stack Project</h4>
+            <p>
+              Complete full-stack application combining React frontend, 
+              Node.js backend, and MongoDB database.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+                  Contact Section
+    =========================================== -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- ==========================================
+                    Footer
+    =========================================== -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>2025 by Nguyễn Thái Sơn | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- ==========================================
+                  Scroll Reveal
+    =========================================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ==========================================
+                   Typed Js
+    =========================================== -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- ==========================================
+                  Custom Js
+    =========================================== -->
+    <script src="main.js"></script>
+  </body>
+</html>
